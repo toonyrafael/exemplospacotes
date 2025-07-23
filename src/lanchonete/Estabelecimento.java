@@ -2,7 +2,7 @@ package lanchonete;
 
 import lanchonete.area.cliente.Cliente;
 import lanchonete.atendimento.Atendente;
-import lanchonete.atendimento.cozinha.Almoxarife;
+//import lanchonete.atendimento.cozinha.Almoxarife;
 import lanchonete.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
@@ -14,8 +14,6 @@ public class Estabelecimento {
         cozinheiro.adicionarSucoNoBalcao() ;;
         cozinheiro.adicionarLancheNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
-
-        Almoxarife almoxarife = new Almoxarife();
         //ações que não precisam estarem disponíveis para toda a aplicação
 
         
