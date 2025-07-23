@@ -3,17 +3,9 @@ package escola;
 public class Aluno {
 	private String nome;
 	private int idade;
-	
 	private String sexo;
-	
-	public void setSexo(String sexo) {
-		this.sexo = sexo;
-	}
-	
-	public String getSexo() {
-		return sexo;
-	}
-	
+
+	// Getters e Setters
 	public String getNome() {
 		return nome;
 	}
@@ -26,6 +18,16 @@ public class Aluno {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}	
+	public String getSexo() {
+		return sexo;
+	}
+	
+	
+	
+		
 	
 	
 
