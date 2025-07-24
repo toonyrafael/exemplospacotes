@@ -1,6 +1,6 @@
 package lanchonete.atendimento.cozinha;
 
-import lanchonete.atendimento.Atendente;
+//import lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
     //pode ser default
